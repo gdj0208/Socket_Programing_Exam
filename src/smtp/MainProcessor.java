@@ -81,43 +81,6 @@ public class MainProcessor {
 	}
 	
 	
-	// 참고용 코드 실제로는 안 쓰일 예정 
-	/*
-	 public void run(String[] args) {
-
-        //MailClient mailClient = new MailClient();
-
-        Scanner sc = new Scanner(System.in);
-
-       System.out.println("사용할 메일 계정 입력(gamil은 설정한 앱 비밀번호 사용해야 함)");
-       System.out.print("email : ");
-       String email = sc.nextLine();
-       System.out.print("password : ");
-       String password = sc.nextLine();
-
-
-        while(true) {
-            System.out.print("메일 읽기 read 입력,메일 보내기 send 입력 끝내기 exit 입력: ");
-            String input = sc.nextLine();
-            
-            if(input.equals("exit")){ break; }
-
-            if (input.equals("read"))//메일 읽기
-                (new MailReceiver(email,password)).receiveMail();
-
-
-            //메일 보내기
-            //UserAgent에서 메일을 작성하고 sendMailToMailServer()을 통해 메일 전송
-             
-            if (input.equals("send")) {
-                User user = new User(email, password);
-                UserAgent userAgent1 = new UserAgent(mailClient, user);//메일 작성
-                //userAgent1.sendMailToMailServer();//MailClient에 메일 전송
-            }
-        }
-
-
-    	}
-	 */
+	
     
 }
